@@ -22,7 +22,8 @@ public class DisplayActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_joke, menu);
+        // no settings needed
+        //getMenuInflater().inflate(R.menu.menu_joke, menu);
         return true;
     }
 
@@ -34,9 +35,10 @@ public class DisplayActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+        // no settings needed
+        //if (id == R.id.action_settings) {
+        //    return true;
+        //}
 
         return super.onOptionsItemSelected(item);
     }
